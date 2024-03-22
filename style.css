@@ -1,0 +1,283 @@
+/* Import Google Fonts and body style */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #1a1a1a;
+    color: white;
+    width: 48px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar li a i {
+    margin-right: 10px;
+    font-size: 16px;
+    /* Set fixed size for icons */
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar li a:hover {
+    background-color: #333;
+}
+
+/* Vertical alignment for sidebar links */
+.sidebar ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar ul li a p {
+    margin-top: 2px;
+}
+
+/* Additional styling as required */
+
+/* Bottom icons */
+.bottom-icons {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-icons i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    /* Set fixed size for icons */
+}
+
+.main {
+    display: flex;
+}
+
+
+/* General Styles */
+.sidebar-2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2f35;
+    width: 230px;
+    margin-left: 48px;
+
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #222;
+    /* Light black */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+}
+
+nav h1 {
+    margin: 0;
+    padding-right: 10px;
+    border-right: 2px solid white;
+    /* Horizontal line */
+
+}
+
+/* Card Styles */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    width: 230px;
+    margin: 20px auto;
+    height: 100vh;
+    align-items: center;
+    padding: 0px;
+
+
+}
+
+.left-icon-container i {
+    height: 30px;
+    width: 50px;
+}
+
+.card {
+    background-color: #3f434d;
+    /* Light white */
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    margin-bottom: 0px;
+
+    /* Each card takes up 30% of the row's width */
+}
+
+.card i {
+    height: 20px;
+    width: 20px;
+
+    color: white;
+}
+
+.card p {
+    color: white;
+    font-size: 9px;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 0px;
+}
+
+.fa {
+    height: 20px;
+    width: 20px;
+}
+
+.icons-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.we {
+    color: white;
+    font-weight: bold;
+    text-align: left !important;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.card-r {
+    display: flex;
+}
+
+.icon-label {
+    font-size: 8px;
+    text-align: center !important;
+    line-height: 12px;
+    font-family: "Roboto";
+    padding-top: 0px;
+}
+
+.left-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 6px;
+    width: 50px;
+}
+
+.selected-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin-top: 6px;
+    background-color: #2d2f35;
+    width: 50px;
+}
+
+.bottom-icons i {
+    height: 30px;
+    width: 50px;
+
+}
+
+.left-icon-container i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-2-title {
+    color: white;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.hr {
+    color: silver;
+    width: 90%;
+    margin: -10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card-row {
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    height: 50px;
+}
+
+.footer-element {
+    position: sticky;
+}
